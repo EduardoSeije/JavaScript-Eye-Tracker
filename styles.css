@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: baseline;
+  overflow: hidden;
+}
+
+img {
+  width: 50vw;
+  height: 100vh;
+  transition: transform 200ms;
+  object-fit: cover;
+}
+
+img.left {
+  transform: translateX(-100vw)
+}
+
+img.right {
+  transform: translateX(+100vw);
+}
+
+img.next {
+  display: none;
+}
