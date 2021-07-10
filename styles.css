@@ -6,6 +6,7 @@ body {
 }
 
 img {
+  margin: auto;
   width: 50vw;
   height: 100vh;
   transition: transform 200ms;
